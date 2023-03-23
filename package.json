@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint src --max-warnings 0",
-    "start": "node prod/index.js",
+    "start": "node -r dotenv/config prod/index.js",
     "test": "echo 'no tests yet'"
   },
   "repository": {
@@ -29,5 +29,10 @@
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.6",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "winston": "^3.8.2"
   }
 }
