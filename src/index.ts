@@ -1,6 +1,7 @@
 import { Client, GatewayIntentBits, Message } from "discord.js";
 
 import { logHandler } from "./utils/logHandler";
+
 let lastMessage: Message<boolean> | null = null;
 
 (async () => {
