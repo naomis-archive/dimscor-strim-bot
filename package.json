@@ -1,0 +1,33 @@
+{
+  "name": "dimscor-strim-bot",
+  "version": "0.0.0",
+  "description": "A bot to notify when I go live in Discord",
+  "main": "prod/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src --max-warnings 0",
+    "start": "node prod/index.js",
+    "test": "echo 'no tests yet'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/naomi-lgbt/dimscor-strim-bot.git"
+  },
+  "author": "Naomi Carrigan",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/naomi-lgbt/dimscor-strim-bot/issues"
+  },
+  "homepage": "https://github.com/naomi-lgbt/dimscor-strim-bot#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsdoc": "^40.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.6",
+    "typescript": "^5.0.2"
+  }
+}
